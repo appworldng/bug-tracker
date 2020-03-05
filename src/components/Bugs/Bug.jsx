@@ -2,7 +2,9 @@ import React, { Component } from "react";
 
 class Bug extends Component {
   state = {
-    title: this.props.title
+    title: this.props.title,
+    priority: this.props.priority,
+    date: this.props.date
   };
 
   render() {
@@ -47,7 +49,7 @@ class Bug extends Component {
               <td className="data-field">
                 <span className="field">Priority</span>
                 <span className="value" style={{ color: "red" }}>
-                  High
+                  {this.state.priority}
                 </span>
               </td>
               <td className="time-field">
@@ -70,7 +72,7 @@ class Bug extends Component {
                       d="M4.639 7.913c.178-.166.475-.359.893-.359.734 0 2.093 1.164-.906 3.906h2.297m1.295-3.905h2.425s-1.4 1.693-1.4 3.906"
                     ></path>
                   </svg>
-                  14-02-2020 03:15pm
+                  {this.state.date}
                 </span>
               </td>
             </tr>

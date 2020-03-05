@@ -8,37 +8,43 @@ class Bugs extends Component {
         id: 1,
         title: "Page title not showing up",
         status: "Pending",
-        priority: "High"
+        priority: "High",
+        date: "04-03-2020 02:35pm"
       },
       {
         id: 2,
         title: "Anchor not display image link",
         status: "Pending",
-        priority: "High"
+        priority: "Medium",
+        date: "01-03-2020 11:57am"
       },
       {
         id: 3,
         title: "Form displaying wrong toggle control",
         status: "Pending",
-        priority: "High"
+        priority: "High",
+        date: "27-02-2020 09:41am"
       },
       {
         id: 4,
         title: "Blog not showing default navigation",
         status: "Pending",
-        priority: "High"
+        priority: "Medium",
+        date: "20-02-2020 10:25am"
       },
       {
         id: 5,
         title: "Admin dashboard not working properly",
         status: "Pending",
-        priority: "High"
+        priority: "Medium",
+        date: "13-02-2020 08:48am"
       },
       {
         id: 6,
         title: "Image rendering gone wrong with CSS",
         status: "Pending",
-        priority: "High"
+        priority: "High",
+        date: "07-03-2020 03:45pm"
       }
     ]
   };
@@ -79,6 +85,7 @@ class Bugs extends Component {
                           title={bug.title}
                           status={bug.status}
                           priority={bug.priority}
+                          date={bug.date}
                         />
                       ))}
                     </div>
