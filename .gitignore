@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/work_in_progress
+/work-in-progress
 /node_modules
 /.pnp
 .pnp.js
