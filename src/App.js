@@ -1,15 +1,19 @@
 import React, { Component } from "react";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import Main from "./components/Main/Main";
+import { Router } from "react-router-dom";
+import Routes from "./routes";
+import History from "./services/history";
+import Header from "./layouts/header";
+import Search from "./layouts/search";
 
 class App extends Component {
   render() {
     return (
       <div>
         <Header></Header>
-        <Main></Main>
-        <Footer></Footer>
+        <Search></Search>
+        <Router history={History}>
+          <Routes />
+        </Router>
       </div>
     );
   }
