@@ -15,7 +15,30 @@ body {
   padding: 3em 0;
 }
 
-/* PANEL */
+/* SCREEN */
+
+.clientify-screen {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.clientify-fullscreen {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.clientify-fullscreen-child {
+  height: 100%;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* SEARCH PANEL */
 
 #clientify-left-panel {
   position: fixed;
