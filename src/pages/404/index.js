@@ -3,7 +3,17 @@ import React, { Component } from "react";
 class NotFound extends Component {
   state = {};
   render() {
-    return <h1>404 Error!</h1>;
+    return (
+      <section className="clientify-screen text-center">
+        <div className="clientify-fullscreen">
+          <div className="clientify-fullscreen-child">
+            <h1 style={{ fontWeight: 300 }}>
+              Some... times in our lives, we all have pain!
+            </h1>
+          </div>
+        </div>
+      </section>
+    );
   }
 }
 
