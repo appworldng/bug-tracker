@@ -10,7 +10,15 @@ class Login extends Component {
           <Container fluid>
             <Row>
               <Col sm={4} className="col-sm-offset-4">
-                <Form></Form>
+                <Form>
+                  <div class="form-group">
+                    <label>Username</label>
+                    <input
+                      class="form-control"
+                      placeholder="Type in your email"
+                    />
+                  </div>
+                </Form>
               </Col>
             </Row>
           </Container>
