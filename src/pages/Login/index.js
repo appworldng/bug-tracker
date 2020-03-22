@@ -11,13 +11,13 @@ class Login extends Component {
             <Row>
               <Col sm={4} className="col-sm-offset-4">
                 <Form>
-                  <div class="form-group">
-                    <label>Username</label>
-                    <input
-                      class="form-control"
+                  <Form.Group>
+                    <Form.label>Username</Form.label>
+                    <Form.Control
+                      type="text"
                       placeholder="Type in your email"
-                    />
-                  </div>
+                    ></Form.Control>
+                  </Form.Group>
                 </Form>
               </Col>
             </Row>
