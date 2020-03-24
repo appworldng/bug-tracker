@@ -17,6 +17,11 @@ class Login extends Component {
                       type="text"
                       placeholder="Type in your email"
                     ></Form.Control>
+                    <Form.label>Username</Form.label>
+                    <Form.Control
+                      type="password"
+                      placeholder="Type in your email"
+                    ></Form.Control>
                   </Form.Group>
                 </Form>
               </Col>
