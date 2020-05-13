@@ -23,6 +23,7 @@ class Login extends Component {
                       placeholder="Type in your email"
                     ></Form.Control>
                   </Form.Group>
+                  <Button></Button>
                 </Form>
               </Col>
             </Row>
